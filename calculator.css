@@ -1,0 +1,89 @@
+.calculatorBody
+{
+    width: 320px;
+    height: 400px;
+    border: solid 3px black;
+    border-radius: 40px;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(46, 44, 44);
+    overflow: hidden;
+}
+#screenDiv
+{
+    width: 290px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    margin: auto;
+    font-size: 40px;
+    /* padding:5px; */
+    
+}
+#screen
+{
+    width: 290px;
+    height: 70px;
+    margin: auto;
+    background-color: cadetblue;
+    color: black;
+    text-align: end;
+    font-size: 30px;
+}
+#btns
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 290px;
+    height: 250px;
+    margin: auto;
+    /* border: solid 1px black; */
+}
+#digits
+{
+    width: 210px;
+    height: 250px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#operators
+{
+    width: 80px;
+    height: 250px;
+    /* border: solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#digits input
+{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(136, 159, 160);
+    margin: 5px;
+    font-size: 20px;
+}
+#operators input
+{
+    width: 50px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: rgb(136, 159, 160);
+    margin: 5px;
+    font-size: 20px;
+}
